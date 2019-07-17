@@ -1,4 +1,4 @@
-# UnencryptedLDAPBinds
+# Unencrypted LDAP Binds
 Get Active Directory unencrypted LDAP binds
 
 Active Directory Domain Controllers uses three protocols for authentication: Kerberos, NTLM and LDAP. For Windows native applications usually first two are used. They are secured by encryption. LDAP protocol authentication is used usually by non-native apps like Java. By default configuration Windows domain controller allows unencrypted LDAP binding. That means all messages are sent in clear text including login and password.
