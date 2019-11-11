@@ -10,5 +10,9 @@ You could configure Event Log to store every such binding:
 1. Change `16 LDAP Interface Events` value to **2**
 1. You could see Event ID `2889` pops up in
    > Event Viewer -> Applications and Services Logs -> Directory service
+   
+Edit the script and supply your
+1. LDAPBINDS\PATH.HTML for HTML file.
+1. FROMEMAIL@ADDRESS, TOEMAIL@ADDRESS and MAIL.SERVER to send generated email
 
 You may need to increase Maximum log size in order to accomodate all events comming to it after you enabled Active Directory Diagnostic Event Logging.
